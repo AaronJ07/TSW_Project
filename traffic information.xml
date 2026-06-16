@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Traffic_Dataset>
+<Locations>
+    <Location id="L1">
+        <Location_Name>Ayer Keroh</Location_Name>
+        <District>Melaka Tengah</District>
+    </Location>
+
+    <Location id="L2">
+        <Location_Name>Bukit Beruang</Location_Name>
+        <District>Melaka Tengah</District>
+    </Location>
+
+    <Location id="L3">
+        <Location_Name>Batu Berendam</Location_Name>
+        <District>Melaka Tengah</District>
+    </Location>
+
+    <Location id="L4">
+        <Location_Name>Durian Tunggal</Location_Name>
+        <District>Alor Gajah</District>
+    </Location>
+
+    <Location id="L5">
+        <Location_Name>MITC</Location_Name>
+        <District>Melaka Tengah</District>
+    </Location>
+</Locations>
+
+<Incidents>
+    <Incident id="I1">
+        <Incident_Type>Accident</Incident_Type>
+    </Incident>
+
+    <Incident id="I2">
+        <Incident_Type>Roadwork</Incident_Type>
+    </Incident>
+
+    <Incident id="I3">
+        <Incident_Type>Traffic Light Broken</Incident_Type>
+    </Incident>
+
+    <Incident id="I4">
+        <Incident_Type>None</Incident_Type>
+    </Incident>
+</Incidents>
+
+<Roads>
+    <Road id="R1">
+        <Road_Name>Jalan Ayer Keroh Lama</Road_Name>
+        <Location_ID>L001</Location_ID>
+        <Incident_ID>I001</Incident_ID>
+        <Traffic_Status>Congested</Traffic_Status>
+        <Traffic_Density>High</Traffic_Density>
+    </Road>
+
+    <Road id="R2">
+        <Road_Name>Lebuh Ayer Keroh</Road_Name>
+        <Location_ID>L001</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Moderate</Traffic_Status>
+        <Traffic_Density>Medium</Traffic_Density>
+    </Road>
+
+    <Road id="R3">
+        <Road_Name>Jalan MITC</Road_Name>
+        <Location_ID>L005</Location_ID>
+        <Inciden_ID>I002</Inciden_ID>
+        <Traffic_Status>Moderate</Traffic_Status>
+        <Traffic_Density>Medium</Traffic_Density>
+    </Road>
+
+    <Road id="R4">
+        <Road_Name>Jalan Tasik Utama</Road_Name>
+        <Location_ID>L001</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Normal</Traffic_Status>
+        <Traffic_Density>Low</Traffic_Density>
+    </Road>
+
+    <Road id="R5">
+        <Road_Name>Jalan Zoo Melaka</Road_Name>
+        <Location_ID>L001</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Normal</Traffic_Status>
+        <Traffic_Density>Low</Traffic_Density>
+    </Road>
+
+    <Road id="R6">
+        <Road_Name>Jalan Bukit Beruang Utama</Road_Name>
+        <Location_ID>L002</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Normal</Traffic_Status>
+        <Traffic_Density>Low</Traffic_Density>
+    </Road>
+
+    <Road id="R7">
+        <Road_Name>Jalan Taman Bukit Beruang</Road_Name>
+        <Location_ID>L002</Location_ID>
+        <Incident_ID>I001</Incident_ID>
+        <Traffic_Status>Congested</Traffic_Status>
+        <Traffic_Density>High</Traffic_Density>
+    </Road>
+
+    <Road id="R8">
+        <Road_Name>Jalan TMU</Road_Name>
+        <Location_ID>L002</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Moderate</Traffic_Status>
+        <Traffic_Density>Medium</Traffic_Density>
+    </Road>
+
+    <Road id="R9">
+        <Road_Name>Jalan Batu Berendam</Road_Name>
+        <Location_ID>L003</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Normal</Traffic_Status>
+        <Traffic_Density>Low</Traffic_Density>
+    </Road>
+
+    <Road id="R10">
+        <Road_Name>Jalan Lapangan Terbang</Road_Name>
+        <Location_ID>L003</Location_ID>
+        <Incident_ID>I003</Incident_ID>
+        <Traffic_Status>Congested</Traffic_Status>
+        <Traffic_Density>High</Traffic_Density>
+    </Road>
+
+    <Road id="R11">
+        <Road_Name>Jalan UTeM</Road_Name>
+        <Location_ID>L004</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Normal</Traffic_Status>
+        <Traffic_Density>Low</Traffic_Density>
+    </Road>
+
+    <Road id="R12">
+        <Road_Name>Jalan Durian Tunggal</Road_Name>
+        <Location_ID>L004</Location_ID>
+        <Incident_ID>I002</Incident_ID>
+        <Traffic_Status>Moderate</Traffic_Status>
+        <Traffic_Density>Medium</Traffic_Density>
+    </Road>
+
+    <Road id="R13">
+        <Road_Name>Jalan Teknologi</Road_Name>
+        <Location_ID>L004</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Normal</Traffic_Status>
+        <Traffic_Density>Low</Traffic_Density>
+    </Road>
+
+    <Road id="R14">
+        <Road_Name>Jalan MITC Boulevard</Road_Name>
+        <Location_ID>L005</Location_ID>
+        <Incident_ID>I001</Incident_ID>
+        <Traffic_Status>Congested</Traffic_Status>
+        <Traffic_Density>High</Traffic_Density>
+    </Road>
+
+    <Road id="R15">
+        <Road_Name>Jalan Konvensyen</Road_Name>
+        <Location_ID>L005</Location_ID>
+        <Incident_ID>I004</Incident_ID>
+        <Traffic_Status>Moderate</Traffic_Status>
+        <Traffic_Density>Medium</Traffic_Density>
+    </Road>
+
+</Roads>
+</Traffic_Dataset>
